@@ -1,0 +1,142 @@
+.main-navbar {
+    background-color: rgb(123, 49, 102);
+}
+
+.navbar-brand,
+.narbar-link {
+    color: rgb(22, 18, 18)
+}
+
+.banner {
+    height: 100vh;
+    background: 
+      url("bg\ cake11.jpg");
+      color: #141414;
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+    align-items: center;
+}
+
+.produk-banner {
+    background-image: url('baaccckkkk.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: rgb(2, 2, 2)
+}
+
+
+
+.card {
+    transition: transfrom o.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgb(255, 252, 252);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: rgb(88, 40, 73);
+    border: nonw;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 234, 249);
+}
+
+.footer {
+    background-color: #672a53 ;
+}
+
+ .footer .sociial-icon {
+    font-size: 1.6rem;
+    color:#ffffff;
+    transition: -3s;
+
+
+ }
+
+ .footer .social-icon:hover {
+    color: #FFC107;
+ }
+
+ .footer-main {
+    background-color: #643168;
+ }
+
+ .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+ }
+
+ .text-decoration-none {
+    text-decoration: none !important;
+ }
+
+ .footer-main a:hover {
+    color: #FFC107 !important
+ }
+
+
+
+.promo-section {
+  animation: fadeSlideIn 0.4s ease both;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.promo-section .hovered-card {
+  opacity: 0;
+  animation: fadeSlideIn 0.4s ease forwards;
+}
+
+.promo-section .hovered-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.promo-section .hovered-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.promo-section .hovered-card:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.promo-section .hovered-card:nth-child(4) {
+  animation-delay: 0.2s;
+}
+
+.promo-section .hovered-card:nth-child(5) {
+  animation-delay: 0.25s;
+}
+
+.promo-section .hovered-card:nth-child(6) {
+  animation-delay: 0.3s;
+}
+
+.promo-section .hovered-card:nth-child(7) {
+  animation-delay: 0.35s;
+}
+
+.promo-section .hovered-card:nth-child(8) {
+  animation-delay: 0.4s;
+}

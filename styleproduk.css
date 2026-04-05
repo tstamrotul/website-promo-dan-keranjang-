@@ -1,0 +1,87 @@
+.main-navbar {
+    background-color: rgb(123, 49, 102);
+}
+
+.navbar-brand,
+.narbar-link {
+    color: rgb(22, 18, 18)
+}
+
+.banner {
+    height: 100vh;
+    background: 
+      url("bg\ cake.jpg");
+      color: #141414;
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+    align-items: center;
+}
+
+.produk-banner {
+    background-image: url('bg\ st.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: rgb(2, 2, 2)
+}
+
+.card {
+    transition: transfrom o.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgb(255, 252, 252);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: rgb(124, 60, 104);
+    border: nonw;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 234, 249);
+}
+
+.footer {
+    background-color: #672a53 ;
+}
+
+ .footer .sociial-icon {
+    font-size: 1.6rem;
+    color:#ffffff;
+    transition: -3s;
+
+
+ }
+
+ .footer .social-icon:hover {
+    color: #FFC107;
+ }
+
+ .footer-main {
+    background-color: #4f3851;
+ }
+
+ .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+ }
+
+ .text-decoration-none {
+    text-decoration: none !important;
+ }
+
+ .footer-main a:hover {
+    color: #FFC107 !important
+ }
+
